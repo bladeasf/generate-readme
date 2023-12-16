@@ -6,12 +6,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?',
+        message: 'What is the title of your project/app?',
       },
       {
         type: 'input',
         name: 'description',
-        message: 'Provide a short description of your project:',
+        message: 'Provide a short description of your app:',
       },
 
       {
@@ -19,6 +19,30 @@ const questions = [
         name: 'userstory',
         message: 'What is your user story?',
 
+      },
+
+      {
+        type: 'input',
+        name: 'guide',
+        message: 'Walk your users through the steps of using your app:',
+      },
+
+      {
+        type: 'input',
+        name: 'install',
+        message: 'How do you install your app?',
+      },
+
+      {
+        type: 'input',
+        name: 'report',
+        message: 'How do you report issues with this app?',
+      },
+
+      {
+        type: 'input',
+        name: 'contributions',
+        message: 'How are other developers able to contribute to the success of this project?'
       },
    
       {
